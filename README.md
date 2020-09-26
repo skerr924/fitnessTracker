@@ -1,57 +1,52 @@
-# Unit 17 Nosql Homework: Workout Tracker
+# Fitness Tracker
 
-For this assignment, you'll create a workout tracker. You have already been provided with the front end code in the `Develop` folder. This assignment will require you to create Mongo database with a Mongoose schema and handle routes with Express.
+# Description
 
-## User Story
+This is a simple fitness tracker which allows users to store either resistance or cardio exercises, view individual workout statistics, as well as weekly workout statistics.
 
-- As a user, I want to be able to view create and track daily workouts. I want to be able to log multiple exercises in a workout on a given day. I should also be able to track the name, type, weight, sets, reps, and duration of exercise. If the exercise is a cardio exercise, I should be able to track my distance traveled.
+# Table of Contents
 
-## Business Context
+- [Table of Contents](#table-of-contents)
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Testing](#testing)
+- [Contributing](#contributing)
 
-A consumer will reach their fitness goals more quickly when they track their workout progress.
+<a name="install"></a>
 
-## Acceptance Criteria
+# Installation
 
-When the user loads the page, they should be given the option to create a new workout or continue with their last workout.
+Run an npm install to ensure all required modules are installed before usage.
 
-The user should be able to:
+<a name="usage"></a>
 
-- Add exercises to a previous workout plan.
+# Usage
 
-- Add new exercises to a new workout plan.
+This application is designed to be simple and user-friendly.
 
-- View the combined weight of multiple exercises on the `stats` page.
+Home page: <img src = "public/assets/fitnessTracker_home.png">
 
-To deploy an application with a MongoDB database to Heroku, you'll need to set up a MongoDB Atlas account and connect a database from there to your application. Be sure to use the following guides for support:
+Form for completion of new exercise: <img src = "public/assets/fitnessTracker_form.png">
 
-- [Set Up MongoDB Atlas](../04-Supplemental/MongoAtlas-Setup.md)
+Statistics page: <img src = "public/assets/fitnessTracker_stats.png">
 
-- [Deploy with Heroku and MongoDB Atlas](../04-Supplemental/MongoAtlas-Deploy.md)
+This application is deployed on Heroku and can be visited here: https://stormy-harbor-82269.herokuapp.com/?id=5f6f9b43b625230017ffc967
 
-## Commit Early and Often
+<a name="lic"></a>
 
-One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for the following two reasons:
+# License
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills.
+No additional licenses are needed for this application.
 
-2. Your commit history allows you to revert your codebase in the event that you need to return to a previous state.
+<a name="test"></a>
 
-Follow these guidelines for committing:
+# Testing
 
-- Make single-purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits.
+There is currently no testing set up for this application.
 
-- Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history.
+<a name="contr"></a>
 
-- Don't commit half-done work, for the sake of your collaborators (and your future self!).
+# Contributing
 
-- Test your application before you commit to ensure functionality at every step in the development process.
-
-We want you to have well over 200 commits by graduation, so commit early and often!
-
-## Submission on BCS
-
-You are required to submit the following:
-
-- The URL to the deployed application
-
-- The URL to the GitHub repository
+When contributing to this project, please add clear and concise comments to all added code to ensure my and future users' understanding of additions and changes.
